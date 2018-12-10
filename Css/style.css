@@ -1,0 +1,742 @@
+body{
+	background-color:#04c3f4;	
+}
+
+.main{
+	background-color: red;
+	width: 1000px;
+	height: 844px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content{
+	background-color: orange;
+	width: 1000px;
+	height: 767px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.reklam{
+	width: 840px;
+	height: 155px;
+	background-color: brown;
+	position: absolute;
+	z-index: 2;
+	bottom: 132px;
+	left: 85px;
+
+}
+
+.float-left{
+	float: left;
+}
+
+.sol{
+	/*width: 65px;
+	height: 65px;*/
+	cursor: pointer;
+	/*background-color: green;*/
+	position: absolute;
+	z-index: 3;
+	bottom: 182px;
+	left: 45px;
+}
+
+.sag{
+	/*width: 65px;
+	height: 65px;*/
+	cursor: pointer;
+	/*background-color: green;*/
+	position: absolute;
+	z-index: 3;
+	bottom: 182px;
+	right: 40px;
+}
+
+
+.footer{
+	width: 1000px;
+	height: 87px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#04c3f4;
+	/*background-color: yellow*/
+}
+
+.copy{
+	padding: 20px 0 0 23px;
+    width: 200px;
+    height: 57px;
+    font-size: 11px;
+    line-height: 16px;
+    color: white;
+    display: inline-block;
+    float: left;
+}
+.white{
+	font-size: 11px;
+}
+
+.secondCopy{
+	float: left;
+	padding-top: 32px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+	width: 58.703px; 
+	display: inline-block;
+}
+
+
+.img_location{
+	float:left;
+	padding: 25px 0 0 36px;
+	height: 30px;width: 30px;
+	display: inline-block;
+}
+
+.thirdCopy{
+	width: 120px;
+	height: 66px;
+	float: left;
+	padding: 15px 0 0 35px;
+	line-height: 15px
+}
+
+.fourthCopy{
+	width: 180px;
+	height: 55px;
+	/*background-color: rSed;*/
+	padding-right: 50px;
+	float: left;
+	margin: 15px 0 0 190px;
+	padding: 20px 0 0 30px;
+}
+
+.main-search{
+ 	float: left;
+    padding-top: 1px;
+    margin-left: 35px
+}
+
+.search{
+	width: 150px;
+	height: 57px;
+	/*background-color: red;*/
+	float: left;
+	margin-top: 28px;
+	/*margin-left: 15px;*/
+
+}
+
+.corner20{
+	border-radius: 20px; 
+	background-color: white;
+	width: 150px;
+	height: 28px;
+	font-size: 11px;
+	padding-top: 2px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+}
+
+.buton{
+	background: url(https://www.bankofbaku.com/site/templates/img/bg/btn-search.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    cursor: pointer;
+    float: left;
+    margin: 30px 0 0 5px;
+    padding: 0px;
+}
+
+
+.green{
+	width: 200px;
+	border-right: 1px dashed #a2eafd;
+	height: 767px;
+	background-color:#04c3f4;
+	cursor:pointer;
+	position: relative;
+}
+
+.leftBorder{
+	border-left: 1px dashed #a2eafd;
+}
+
+.logo{
+	position: absolute;
+    top: 23px;
+    left: 31px;
+    z-index: 1;
+}
+
+.menuA{
+	width: 217px;
+    height: 217px;
+    background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 0;
+    /*transition: 1s ease;*/
+    position: absolute;
+    top: 40%;
+    left: 39.5%;
+    margin: -87px 0 0 -87px;
+    display: block;
+    color: #00b7de;
+}
+
+.first{
+	background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat 0 3px;
+	width: 100px;
+    height: 93px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+.p{
+	margin: 9px auto;
+	text-align: center;
+	width: 120px;
+    font-size: 125%;
+    color: #00b7de;
+    font-family: arial;
+}
+
+.menuB-links{
+	width: 161px;
+	height: 50.5px;
+	
+	/*position: absolute;*/
+    /*z-index: 200;*/
+    /*text-align: center;*/
+    margin: 23px 10px 0px 6px;
+}
+
+a{
+	font-size: 12px;
+	font-family: arial;
+	margin-top: 5px; 
+	text-decoration: underline;
+	color: white;
+
+}
+
+.xetsiz{
+	text-decoration: none !important;
+}
+
+.qulaqliq{
+	padding-top: 3px; 
+	
+}
+
+.links{
+	width: 118px;
+	height: 50px;
+	
+	margin-left:0;
+	display: inline-block;
+	float: right;
+	padding-top:5px;
+	padding-right: 10px;
+	margin-left: 3px
+}
+
+.menuB{
+	width: 217px;
+    height: 217px;
+    background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 0;
+    position: absolute;
+    top: 40%;
+    left: 39.5%;
+    margin: -87px 0 0 -87px;
+    display: block;
+    color: #00b7de;
+}
+
+
+.second{
+	background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -199px 0;
+	width: 100px;
+    height: 93px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+
+.menuC-links{
+	width: 194px;
+	/*background-color: grey;*/
+	height: 57.6px;
+	margin-top: 23px;
+	float: left;
+	margin-right: 5px;
+}
+
+.paddingSifir{
+	padding-left:5px;
+	padding-right:0;
+}
+
+.komp{
+	margin-top:9px 
+}
+
+.linksLeft{
+	width: 140px;
+	height: 50px;
+	margin-left:0;
+	display: inline-block;
+	float: right;
+	/*padding-top:5px;*/
+	padding-right: 10px;
+	margin-left: 3px
+}
+
+
+
+.menuC{
+	width: 217px;
+    height: 217px;
+    background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 0;
+    position: absolute;
+    top: 40%;
+    left: 39.5%;
+    margin: -87px 0 0 -87px;
+    display: block;
+    color: #00b7de;
+	
+}
+
+
+.third{
+	background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -400px 0;
+	width: 100px;
+    height: 93px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+
+.fourth{
+	background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -595px 0;
+	width: 100px;
+    height: 93px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+.margin-zero{
+	margin: 0 auto;
+}
+
+.menuD-links{
+	width: 181px;
+	height: 50.5px;
+	/*position: absolute;*/
+    /*z-index: 200;*/
+    /*text-align: center;*/
+    margin: 23px 10px 0px 6px;
+}
+
+.linksLeft2{
+	width: 130px;
+	height: 50px;
+	margin-left:0;
+	display: inline-block;
+	float: right;
+	padding-top:7px;
+	padding-right: 10px;
+	margin-left: 3px
+}
+
+.fifth{
+	background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -797px 0;
+	width: 100px;
+    height: 93px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+.all{
+	width: 151px;
+	height: 69px;
+	position: absolute;
+	right: 26px;
+	top: 32px;
+	z-index: 200;
+	/*background-color: red;*/
+}
+
+.c-button{
+	background: url(https://www.bankofbaku.com/site/templates/img/bg/home-all.png) no-repeat;
+    height: 35px;
+    padding: 9px 0 0 16px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 10px; 
+}
+
+.langs{
+	width: 151px;
+	height: 24px;
+	margin-left: 20px
+}
+
+.on{
+	background: url(https://www.bankofbaku.com/site/templates/img/bg/home-lang-active.png) no-repeat;
+    height: 24px;
+    color: #00c2f3;
+    padding: 0 5px;
+}
+
+li{
+	font-size: 10px;
+	line-height: 24px;
+	display: inline-block;
+	padding: 0 8px;
+
+}
+
+.onpx{
+	font-size:10px!important;
+}
+
+
+.a{
+	width: 200px;
+	cursor:pointer;
+}
+
+
+.hoverBir:hover {
+	background: url(https://www.bankofbaku.com/site/templates/img/pcards.jpg	) no-repeat center center;
+	transition: all 0.3s ease-out;
+
+}
+
+.hoverBir:hover .menuA{
+	background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 -217px;
+	/*transition: 1s ease;*/
+   	color: white;
+}
+
+
+.hoverBir:hover .first{
+	background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat 0 -88px;
+}
+
+.hoverBir:hover .p{
+	color: white;
+}
+
+
+
+
+
+.hoverIki:hover {
+	background: url(https://www.bankofbaku.com/site/templates/img/loans.jpg) no-repeat center center;
+	transition: all 0.3s ease-out;
+}
+
+.hoverIki:hover .menuB{
+	background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 -217px;
+   	color: white;
+}
+
+.hoverIki:hover .second{
+background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -199px -91px;
+}
+
+
+.hoverIki:hover .p{
+	color: white;
+}
+
+
+
+
+
+.hoverUc:hover{
+	background: url(https://www.bankofbaku.com/site/templates/img/inst.jpg) no-repeat center center;
+	transition: all 0.3s ease-out;
+}
+
+.hoverUc:hover .menuC{
+	background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 -217px;
+    color: white;
+}
+
+
+.hoverUc:hover .third{
+    background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -400px -91px;
+}
+
+.hoverUc:hover .p{
+	color: white;
+}
+
+
+
+
+
+.hoverDord:hover{
+	background: url(https://www.bankofbaku.com/site/templates/img/online.jpg) no-repeat center center;
+	transition: all 0.3s ease-out;
+}
+
+.hoverDord:hover .menuC{
+		background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 -217px;
+	    color: white;
+	}
+
+.hoverDord:hover .fourth{
+        background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -595px -91px;
+}
+
+.hoverDord:hover .p{
+	color: white;
+}
+
+
+
+
+
+
+
+
+.hoverBes:hover{
+	background: url(https://www.bankofbaku.com/site/templates/img/transfer.jpg) no-repeat center center;
+	transition: all 0.3s ease-out;
+}
+
+
+.hoverBes:hover .menuC{
+	background: url(https://www.bankofbaku.com/site/templates/img/c_main.png) no-repeat 0 -217px;
+    color: white;
+}
+
+.hoverBes:hover .fifth{
+	    background: url(https://www.bankofbaku.com/site/templates/img/main_icons.png) no-repeat -797px -91px;
+}
+
+.hoverBes:hover .p{
+	color: white;
+}
+
+
+.mobile-content .content-header .duyme .pointer .img-olcu .diller .fon .list .hov .main-content .mobilemenu .bir{
+	width: 0px;
+	height: 0px;
+	display: none;
+	visibility: hidden;
+}
+
+
+
+
+@media screen and (max-width: 568px){
+
+	.img-olcu{
+		width: 150px;
+		height: 46px;
+	}
+
+	.main{
+		display: none;
+	}
+
+	body{
+		margin: 0px;
+		padding: 0px;
+		font-family: arial;
+	}
+
+	.mobile{
+		width: 95%;
+    	margin: 0 2.5%;
+	}
+
+	.top{
+	width: 105%;
+    min-height: 50px;
+    background: url(https://www.bankofbaku.com/site/templates/css/img/top_line.png) repeat-x bottom left;
+    margin: 0 0 0 -2.5%;
+    display: block;
+	}
+
+	a{
+		margin-top: 0px;
+	width: 33.3%;
+    height: 50px;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+	}
+
+	.call{
+		background: url(https://www.bankofbaku.com/site/templates/css/img/call.png) no-repeat center center;
+	    background-size: auto 65% !important;
+	}
+
+	.pay{
+	background: url(https://www.bankofbaku.com/site/templates/css/img/pay.png) no-repeat center center;
+    background-size: auto 65% !important;
+    position: relative;
+	}
+
+	.brunches{
+	background: url(https://www.bankofbaku.com/site/templates/css/img/branch.png) no-repeat center center;
+    background-size: auto 65% !important;
+	}
+
+	.pay-left{
+	display: block;
+    height: 100%;
+    border-left: 1px solid #102b56;
+    border-right: 1px solid #436fb2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	}
+
+
+	.pay-right{
+	display: block;
+    height: 100%;
+    border-left: 1px solid #102b56;
+    border-right: 1px solid #436fb2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	}
+
+
+	.mobile-content{
+		width: 
+		height: auto;
+    	position: relative;
+	}
+
+
+	.content-header{
+		width: 100%;
+		height: 50px;
+		display: block;
+		margin-top: 22px;
+	    /*background-color: red;*/
+	}
+
+
+	.duyme{
+	width: 35px;
+    height: 24px;
+    background: url(https://www.bankofbaku.com/site/templates/css/img/button_all_mobile.png) no-repeat 0 0;
+	display: inline-block;
+	float: right;
+	margin-top: 8px;
+	margin-right: 8px 	
+
+	}
+
+
+	.diller{
+		position: relative;
+	    width: 100px;
+	    text-align: center;
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	    float: right;
+	    margin-top: 8px;
+	    margin-left: 133px
+	}
+
+
+	.fon{
+		background: url(https://www.bankofbaku.com/site/templates/img/bg/home-lang-active.png) no-repeat;
+	    width: 24px;
+	    height: 24px;
+	    color: #00c2f3!important;
+	    padding: 0 5px!important;
+	    text-decoration: none!important;
+	    cursor: initial!important;
+	}
+
+	.list{
+		font-size: 10px;
+	    line-height: 24px;
+	    padding: 0 8px;
+	    display: inline-block;
+	    list-style: none;
+    	margin: 0;
+    	color: white;
+    	text-decoration: underline;
+    	cursor: pointer;
+	}
+
+	.hov:hover{
+		text-decoration: none;
+	}
+
+	.pointer{
+		cursor: pointer;
+	}
+
+
+	.main-content{
+		display: block;
+	}
+
+
+	.mobile-menu{
+	width: 47%;
+    height: 120px;
+    float: left;
+    margin-bottom: 8%;
+    color: #00b7de;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 22px;
+    display: inline-block;
+	}
+
+
+	.bir{
+	width: 97%;
+    height: 100%;
+    background: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 3px solid #04c3f4;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    position: relative;
+	}
+
+	span{
+		background: url(https://www.bankofbaku.com/site/templates/css/img/m_cards.png) no-repeat center center;
+	    background-size: 40% !important;
+	    width: 100%;
+	    height: 93px;
+	    display: block;
+	    position: absolute;
+	    border: none;
+	}
+
+	p{
+		margin: 0
+	}
+
+
+}

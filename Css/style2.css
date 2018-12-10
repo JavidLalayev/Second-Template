@@ -1,0 +1,135 @@
+body{
+
+}
+
+.menu{
+	width: 950px;
+	height: 551.6px;
+	background-color: #0068a7;
+	margin-top: 32px;
+	border-radius: 5px;
+	position: relative;
+	margin-left: 281px;
+	margin-right: 281px;
+	box-sizing: border-box;
+	/*margin-right: 300px*/
+
+}
+
+.tittle{
+	position: absolute;
+    left: 33px;
+    top: 26px;
+    font-size: 12px;
+    color: #0073b8;
+    line-height: 26px;
+    width: 112.8px;
+    height: 26px;
+    background: #ffffff;
+    height: 26px;
+    padding: 0 16px;
+    line-height: 26px;
+    box-shadow: 0 0 5px #0068a7 inset;
+    display: table-cell;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.birinci{
+	width: 316px;
+	height: 449.4px;
+	/*background-color: red;*/
+	margin: 0;
+	position: absolute;
+	top: 69px;
+	padding: 0 23px 0 20px;
+
+}
+
+ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+a{
+	font-size: 16px;
+    line-height: 35px;
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.icon1{
+	width: 45px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 5px 
+}
+
+.yuxari{
+	width: 270px;
+	height: 120px;
+	/*background-color: red;*/
+}
+
+.asagi{
+	width: 270px;
+	height: 300px;
+	/*background-color: red;*/
+	margin-top: 35px
+}
+
+a:hover{
+	text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+.ikinci{
+	width: 316.8px; 
+	height: 449.6px;
+	border-left: solid 1px #4194c6;
+    border-right: solid 1px #4194c6;
+    padding: 0 20px 0 15px;
+    float: left;
+    position: absolute;
+    left: 318px;
+    top: 68px
+    /*padding-bottom:;*/
+}
+
+.ucuncu{
+	width: 290px; 
+	height: 449.6px;
+	/*border-left: solid 1px #4194c6;
+    border-right: solid 1px #4194c6;*/
+    padding: 0 20px 0 15px;
+    float: left;
+    position: absolute;
+    left: 635px;
+    top: 68px;
+    /*background-color:red;*/
+}
+
+.cixis{
+	position: absolute;
+    right: 45px;
+    top: 12px;
+    font-size: 13px;
+    color: white;
+}
+
+.cixis-image{
+	position: absolute;
+    top: 10px;
+    right: 14px;
+    cursor: pointer;
+}
